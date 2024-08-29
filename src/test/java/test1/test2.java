@@ -7,9 +7,9 @@ public class test2 {
 	@Test
 	public void a()
 	{
-		System.out.println("Hello ! World !!!!!!!!!!!!!!!!!!!!!!!!!!!! ");
-		System.out.println("Hello ! World !!!!!!!!!!!!!!!!!!!!!!!!!!!! ");
-		System.out.println("Hello ! World !!!!!!!!!!!!!!!!!!!!!!!!!!!! ");
-		System.out.println("Hello ! World !!!!!!!!!!!!!!!!!!!!!!!!!!!! ");
+		System.out.println("1");
+		System.out.println("2");
+		System.out.println("3");
+		System.out.println("4");
 	}
 }
