@@ -2,6 +2,23 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>JenkinsTest</groupId>
   <artifactId>JenkinsTest</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
-   
+  <version>0.0.1-SNAPSHOT</version> 
+  <build>
+    <plugins>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-surefire-plugin</artifactId>
+            <version>3.0.0-M9</version>
+            <configuration>
+                <suiteXmlFiles>
+                    <suiteXmlFile>test.xml</suiteXmlFile>
+                </suiteXmlFiles>
+            </configuration>
+        </plugin>
+        <!-- Add other plugins as required -->
+    </plugins>
+</build>
+
+  
+  
 </project>
