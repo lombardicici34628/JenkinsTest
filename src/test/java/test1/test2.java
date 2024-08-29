@@ -8,5 +8,6 @@ public class test2 {
 	public void a()
 	{
 		System.out.println("Hello ! World !!!!!!!!!!!!!!!!!!!!!!!!!!!! ");
+		System.out.println("Hello ! World !!!!!!!!!!!!!!!!!!!!!!!!!!!! ");
 	}
 }
